@@ -9,7 +9,7 @@ You can use [swagger-enhance] to generate the JSON data necessary to populate
 these templates.
 
 [Swagger]: http://swagger.io
-[Djano-style templates]: https://docs.djangoproject.com/en/1.7/topics/templates/
+[Django-style templates]: https://docs.djangoproject.com/en/1.7/topics/templates/
 [Jinja]: http://jinja.pocoo.org/docs/dev/templates/
 [Nunchucks]: http://mozilla.github.io/nunjucks/
 [Plate]: https://github.com/chrisdickinson/plate
