@@ -1,0 +1,8 @@
+{% for auth_type in authorizations %}
+  {% set auth = authorizations[auth_type] %}
+  <section id="auth-{{ auth_type }}" class="authorization">
+    <h3>{{ auth_type }}</h3>
+    <p>TODO</p>
+  </section>
+{% endfor %}
+

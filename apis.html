@@ -1,0 +1,8 @@
+{% for api in apis %}
+  <section id="{{ api.path }}" class="api">
+    <h3>{{ api.path }}</h3>
+    {% if api.description %}
+      <p class="description">{{ api.description }}</p>
+    {% endif %}
+  </section>
+{% endfor %}

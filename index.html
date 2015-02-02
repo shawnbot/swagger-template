@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ info.title }}{% endblock %}</title>
+    {% block css %}{% endblock %}
+    {% block scripts %}{% endblock %}
+  </head>
+  <body>
+
+    {% block info %}
+    <section id="info">
+      {% include 'info.html' %}
+    </section>
+    {% endblock %}
+
+    {% block apis %}
+    <section id="apis">
+      <h2>APIs</h2>
+      {% include 'apis.html' %}
+    </section>
+    {% endblock %}
+
+    {% block authorizations %}
+    <section id="authorizations">
+      <h2>Authorizations</h2>
+      {% include 'authorizations.html' %}
+    </section>
+    {% endblock %}
+
+    {% block footer %}
+    <footer>Your footer here.</footer>
+    {% endblock %}
+  </body>
+</html>
